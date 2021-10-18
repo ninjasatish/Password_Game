@@ -70,6 +70,7 @@ int main(){
 		cout << endl;
 		if(guess == password){
 			cout << "\t You win :)" ;
+			sec(8);
 			exit(0);
 		} 
 		else if(guess < password){
@@ -84,5 +85,5 @@ int main(){
 	while(moves--);
 	
 	cout << "\t   You are out of moves , You loose :(" << endl;
-	
+	sec(8);	
 }
